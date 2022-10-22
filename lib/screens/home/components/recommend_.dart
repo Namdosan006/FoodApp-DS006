@@ -3,8 +3,8 @@ import 'package:food006_app/screens/details/details_screen.dart';
 
 import '../../../constants.dart';
 
-class RecomendsPlants extends StatelessWidget {
-  const RecomendsPlants({
+class Recommend extends StatelessWidget {
+  const Recommend({
     Key key,
   }) : super(key: key);
 
@@ -14,7 +14,7 @@ class RecomendsPlants extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: <Widget>[
-          RecomendPlantCard(
+          RecomendCard(
             image: "assets/images/donut1.png",
             title: "Red Velvet",
             country: "Dunkin's",
@@ -28,7 +28,7 @@ class RecomendsPlants extends StatelessWidget {
               );
             },
           ),
-          RecomendPlantCard(
+          RecomendCard(
             image: "assets/images/donut2.png",
             title: "Choco Tap",
             country: "Dunkin's",
@@ -42,7 +42,7 @@ class RecomendsPlants extends StatelessWidget {
               );
             },
           ),
-          RecomendPlantCard(
+          RecomendCard(
             image: "assets/images/donut3.png",
             title: "Choco Lava",
             country: "Dunkin's",
@@ -55,8 +55,8 @@ class RecomendsPlants extends StatelessWidget {
   }
 }
 
-class RecomendPlantCard extends StatelessWidget {
-  const RecomendPlantCard({
+class RecomendCard extends StatelessWidget {
+  const RecomendCard({
     Key key,
     this.image,
     this.title,

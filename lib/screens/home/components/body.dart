@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:food006_app/constants.dart';
 
-import 'featurred_plants.dart';
+import 'featurred_.dart';
 import 'header_with_seachbox.dart';
-import 'recomend_plants.dart';
+import 'recommend_.dart';
 import 'title_with_more_bbtn.dart';
 
 class Body extends StatelessWidget {
@@ -18,7 +18,7 @@ class Body extends StatelessWidget {
         children: <Widget>[
           HeaderWithSearchBox(size: size),
           TitleWithMoreBtn(title: "Recomended", press: () {}),
-          RecomendsPlants(),
+          Recommend(),
           TitleWithMoreBtn(title: "Featured Food", press: () {}),
           FeaturedPlants(),
           SizedBox(height: kDefaultPadding),
