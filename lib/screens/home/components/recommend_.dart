@@ -15,7 +15,7 @@ class Recommend extends StatelessWidget {
       child: Row(
         children: <Widget>[
           RecomendCard(
-            image: "assets/images/donut1.png",
+            image: "assets/images/redv1.jpg",
             title: "Red Velvet",
             country: "Dunkin's",
             price: 5,
@@ -29,7 +29,7 @@ class Recommend extends StatelessWidget {
             },
           ),
           RecomendCard(
-            image: "assets/images/donut2.png",
+            image: "assets/images/choco.jpg",
             title: "Choco Tap",
             country: "Dunkin's",
             price: 6,
@@ -43,7 +43,7 @@ class Recommend extends StatelessWidget {
             },
           ),
           RecomendCard(
-            image: "assets/images/donut3.png",
+            image: "assets/images/chocolav.jpg",
             title: "Choco Lava",
             country: "Dunkin's",
             price: 6,

@@ -29,25 +29,24 @@ class Body extends StatelessWidget {
               SizedBox(
                 width: size.width / 2,
                 height: 84,
-                child: FlatButton(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.only(
-                      topRight: Radius.circular(20),
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: kPrimaryColor,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  color: kPrimaryColor,
-                  onPressed: () {},
+                  onPressed: () => ChangeNotifier(),
                   child: Text(
                     "Buy Now",
                     style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
+                      color: Color(0xffffffff),
                     ),
                   ),
                 ),
               ),
               Expanded(
-                child: FlatButton(
+                child: TextButton(
                   onPressed: () {},
                   child: Text("Description"),
                 ),

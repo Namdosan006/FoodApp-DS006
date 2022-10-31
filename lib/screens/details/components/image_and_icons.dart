@@ -63,7 +63,7 @@ class ImageAndIcons extends StatelessWidget {
                 image: DecorationImage(
                   alignment: Alignment.centerLeft,
                   fit: BoxFit.cover,
-                  image: AssetImage("assets/images/wpdonut.png"),
+                  image: AssetImage("assets/images/redvelvet.jpg"),
                 ),
               ),
             ),

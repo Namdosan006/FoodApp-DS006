@@ -13,20 +13,20 @@ class FeaturedPlants extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: <Widget>[
-          FeaturePlantCard(
-            image: "assets/images/burger.png",
+          FeatureCard(
+            image: "assets/images/burger1.jpg",
             press: () {},
           ),
-          FeaturePlantCard(
-            image: "assets/images/pizza.png",
+          FeatureCard(
+            image: "assets/images/pizza1.jpg",
             press: () {},
           ),
-          FeaturePlantCard(
-            image: "assets/images/ice-cream.png",
+          FeatureCard(
+            image: "assets/images/icecream1.jpg",
             press: () {},
           ),
-          FeaturePlantCard(
-            image: "assets/images/hot-drink.png",
+          FeatureCard(
+            image: "assets/images/coffe.jpg",
             press: () {},
           ),
         ],
@@ -35,8 +35,8 @@ class FeaturedPlants extends StatelessWidget {
   }
 }
 
-class FeaturePlantCard extends StatelessWidget {
-  const FeaturePlantCard({
+class FeatureCard extends StatelessWidget {
+  const FeatureCard({
     Key key,
     this.image,
     this.press,
